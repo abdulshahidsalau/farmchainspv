@@ -1,9 +1,10 @@
 import React from "react";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background text-foreground">
-      <h1 className="text-3xl font-bold">Welcome to FarmChain SPV!</h1>
+    <div className="bg-background text-foreground">
+      <Home />
     </div>
   );
 }
